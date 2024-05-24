@@ -1,0 +1,18 @@
+/* Regole generali header */
+
+
+
+.stratend {
+    text-align: center;
+    /* Debuh */
+    background-color: blue;
+    min-height: 100px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.portimg img{
+    margin-bottom: 25px;
+}
