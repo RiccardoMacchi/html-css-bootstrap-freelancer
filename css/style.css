@@ -2,7 +2,7 @@
 
 
 
-.stratend {
+.startend {
     /* Debuh */
     background-color: blue;
     min-height: 100px;
@@ -25,6 +25,7 @@ img {
 .debug {
     background-color: black;
     border: 3px solid yellow;
+    margin: 0 auto;
     height: 150px;
     width: 150px;
     
