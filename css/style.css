@@ -24,6 +24,8 @@ img {
 
 .debug {
     background-color: black;
+    border: 3px solid yellow;
     height: 150px;
     width: 150px;
+    
 }
