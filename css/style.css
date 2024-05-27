@@ -5,9 +5,9 @@ section {
 }
 
 .startend {
-    /* Debug */
     background-color: #2c3e50;
-    min-height: 100px;
+    width: 100%;
+    z-index: 100;
 }
 
 .greenbg {
@@ -26,9 +26,31 @@ a {
     text-decoration: none;
 }
 
+/* Regole barra navigazione */
+
+#navbarNav ul li{
+    text-align: right;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
 /* Regole header */
 #startbootstrap img{
     max-width: 30%;
+}
+
+header section:last-child {
+    padding-top: 150px;
 }
 
 /* Sezione portafolio */
@@ -82,22 +104,8 @@ footer a {
     color: #1abc9c;
 }
 
-/* Regole barra navigazione */
-
-#navbarNav ul li{
-    text-align: right;
-}
-
-.navbar-brand {
-    color: white;
-}
-
-.nav-item a {
-    color: white;
-}
-
-.navbar-nav .nav-link.active {
-    color: white;
+footer section:last-child {
+    font-size: 0.8rem;
 }
 
 

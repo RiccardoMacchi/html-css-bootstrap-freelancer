@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <section class="startend">
+        <section class="startend position-fixed" id="ms_navbar">
 <!-- Menu navigazione Bootstrap -->
             <nav class="navbar navbar-expand-md">
                 <div class="container-sm container-md container-xl justify-content-between">
@@ -26,13 +26,13 @@
                   <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                        <a class="nav-link active" aria-current="page" href="#portfolio">PORTFOLIO</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="#about">ABOUT</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#contact">CONTACT</a>
                       </li>
                     </ul>
                   </div>
@@ -66,7 +66,7 @@
         </section>
     </header>
     <main>
-        <section class="portimg">
+        <section class="portimg" id="portfolio">
             <div class="container-sm container-md container-xl">
 <!-- Titolo seonda sezione PORTFOLIO -->
                 <div class="row text-center">
@@ -84,7 +84,7 @@
                         <div class="line bk"></div>
                     </div>
                 </div>
-<!-- Immagini seconda sezione -->
+<!-- Immagini sezione portfolio -->
                 <div id="wrapperportimg">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                         <div class="col">
@@ -116,7 +116,7 @@
             </div>
         </section>
 <!-- Sezione about -->
-        <section class="greenbg txtwh">
+        <section class="greenbg txtwh" id="about">
             <div class="container-sm container-md container-xl">
                 <div class="wrappersmall">
                     <div class="row text-center">
@@ -209,27 +209,18 @@
                     <div class="col">
 <!-- Around the web -->
                         <h4>AROUND THE WEB</h4>
-                            
-                                <div class="circle">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </div>
-                            
-                            
-                                <div class="circle">
-                                    <i class="fa-brands fa-google-plus-g"></i>
-                                </div>
-                            
-                            
-                                <div class="circle">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </div>
-                            
-                            
-                                <div class="circle">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </div>
-                            
-                        
+                        <div class="circle">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="circle">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </div>
+                        <div class="circle">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="circle">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
                     </div>
                     <div class="col">
 <!-- About freelance -->
