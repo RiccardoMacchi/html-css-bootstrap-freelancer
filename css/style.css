@@ -124,6 +124,7 @@ footer a {
 /* Effetto circolare */
 
 .circle {
+    display: inline-block;
     width: 40px;
     height: 40px;
     border: 1px solid white;
