@@ -60,11 +60,20 @@ a {
 #contactform input {
     width: 100%;
     height: 30px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #d0d3d7;
 }
 
 #contactform textarea {
     width: 100%;
     height: 200px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #d0d3d7;
+    margin-bottom: 10px;
 }
 
 /* Regole footer */
@@ -134,4 +143,27 @@ footer a {
 .wrappersmall {
     max-width: 90%;
     margin: 0 auto;
+}
+
+
+/* Effetti hover */
+
+#wrapperportimg img:hover {
+    opacity: 0.4;
+}
+#wrapperportimg:hover i{
+    display: block;
+}
+
+#wrapperportimg .col {
+    position: relative;
+}
+
+#wrapperportimg i {
+    display: none;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
