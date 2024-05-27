@@ -5,7 +5,7 @@ section {
 }
 
 .startend {
-    /* Debuh */
+    /* Debug */
     background-color: #2c3e50;
     min-height: 100px;
 }
@@ -22,6 +22,11 @@ img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* Regole header */
 #startbootstrap img{
     max-width: 30%;
 }
@@ -60,4 +65,73 @@ img {
 #contactform textarea {
     width: 100%;
     height: 200px;
+}
+
+/* Regole footer */
+
+footer a {
+    color: #1abc9c;
+}
+
+/* Regole barra navigazione */
+
+#navbarNav ul li{
+    text-align: right;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+
+/* Disegno stella */
+
+.line{
+    background-color: white;
+    height: 3px;
+}
+
+.bk {
+    background-color: black;
+}
+
+/* Bottoni */
+
+.abutton {
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Effetto circolare */
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.circle i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Regole grandezze */
+
+.wrappersmall {
+    max-width: 90%;
+    margin: 0 auto;
 }
