@@ -156,18 +156,6 @@ footer section:last-child {
 
 
 /* Effetti hover */
-
-#wrapperportimg img:hover {
-    opacity: 0.4;
-}
-#wrapperportimg:hover i{
-    display: block;
-}
-
-#wrapperportimg .col {
-    position: relative;
-}
-
 #wrapperportimg i {
     display: none;
     font-size: 50px;
@@ -176,3 +164,15 @@ footer section:last-child {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+#wrapperportimg img:hover {
+    opacity: 0.4;
+}
+#wrapperportimg .col:hover i {
+    display: block;
+}
+
+#wrapperportimg .col {
+    position: relative;
+}
+
